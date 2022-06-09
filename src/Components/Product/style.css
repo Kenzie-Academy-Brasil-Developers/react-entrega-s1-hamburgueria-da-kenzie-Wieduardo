@@ -1,0 +1,57 @@
+.cardProduto{
+    width: 300px;
+    height: 346px;
+    background: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+}
+.cardProduto:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+.cardImg{
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: #F5F5F5;
+    justify-content: center;
+}
+.cardText{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 22px 0px 22px;
+}
+.cardName{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.cardCategory{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282
+}
+.cardPrice{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27AE60;
+}
+.cardButton{
+    cursor: pointer;
+    padding: 0px 20px;
+    width: 106px;
+    height: 40px;
+    background: #27AE60;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.cardButton:hover{
+    transition: 0.2s;
+    background-color: #93D7AF;
+    border: 2px solid #93D7AF;
+}

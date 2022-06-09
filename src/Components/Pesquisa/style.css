@@ -1,0 +1,41 @@
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 60px;
+    padding: 0px 10px 0px 15px;
+    gap: 85px;
+    background: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+}
+.inputContainer:active{
+    border: 2px solid #333333;
+}
+.inputTexto{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E0E0E0;
+    border: none;
+}
+.inputTexto:focus{
+    outline: none;
+    color: #828282;
+}
+.inputButton{
+    cursor: pointer;
+    width: 107px;
+    height: 40px;
+    background: #27AE60;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.inputButton:hover{
+    background-color: #93D7AF;
+    border: 2px solid #93D7AF;
+    transition: .2s;
+}

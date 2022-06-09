@@ -1,0 +1,32 @@
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 382px;
+    height: 145px;
+    background-color: #F5F5F5;
+}
+.totalInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    padding: 18px;
+}
+.totalButton{
+    cursor: pointer;
+    padding: 0px 20px;
+    width: 343px;
+    height: 60px;
+    background: #E0E0E0;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+}
+.totalButton:hover{
+    background: #828282;
+    color: #E0E0E0;
+    transition: .2s;
+}

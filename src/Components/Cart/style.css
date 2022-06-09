@@ -1,0 +1,33 @@
+.cart{
+    width: 382px;
+}
+.headerCart{
+    display: flex;
+    width: 382px;
+    height: 65px;
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+.listaCart{
+    transform-origin: center top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 382px;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin: 0;
+    padding-inline-start: 0px;
+    min-height: 150px;
+}
+@media (min-width: 450px){
+    .cart{
+        margin-top: 20px;
+    }
+}
