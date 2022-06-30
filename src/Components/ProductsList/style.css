@@ -10,5 +10,6 @@
     .vitrine{
         flex-wrap: wrap;
         overflow-x: hidden;
+        width: 800px;
     }
 }
